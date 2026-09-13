@@ -5,8 +5,8 @@
     <section class="hero-section animate-rise">
       <p class="subtitle">Portfólio 2026</p>
       <h1 class="title">
-        Interfaces <span class="text-gradient">translúcidas</span>,<br />
-        engenharia sólida.
+        Transformo processos <span class="text-gradient">complexos</span>,<br />
+        em software que funciona.
       </h1>
       <p class="description">
         Sou Anthony Santos, desenvolvedor full stack. Desenho e construo produtos web do banco
