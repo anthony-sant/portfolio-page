@@ -11,7 +11,7 @@ export const contactChannels = [
   },
   {
     label: "GitHub",
-    value: "github.com/anthony-sant",
-    href: "https://github.com/anthony-sant"
+    value: "github.com/seu-usuario",
+    href: "https://github.com/seu-usuario"
   }
 ];

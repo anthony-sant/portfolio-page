@@ -54,6 +54,5 @@ atualizações de página.
 ## Configuração de contatos
 
 Edite `src/data/contact-content.js` para configurar os contatos exibidos no
-site. O GitHub já usa a URL identificada no repositório; os valores de e-mail
-e LinkedIn são placeholders e devem ser substituídos por informações reais
-antes do deploy.
+site. Os valores de e-mail, LinkedIn e GitHub são placeholders e devem ser
+substituídos por informações reais antes do deploy.

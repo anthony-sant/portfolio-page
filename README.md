@@ -34,7 +34,6 @@ build, pois ela não contém uma aplicação Vue.
 
 ## Contatos
 
-Os dados de contato ficam em `portfolio-web/src/data/contact-content.js`. O
-link do GitHub aponta para o repositório configurado. Atualize os campos de
-e-mail e LinkedIn, que permanecem como placeholders, antes de publicar dados
-de contato pessoais.
+Os dados de contato ficam em `portfolio-web/src/data/contact-content.js`.
+Atualize os campos de e-mail, LinkedIn e GitHub, que permanecem como
+placeholders, antes de publicar dados de contato pessoais.
