@@ -1,5 +1,43 @@
 {
+  "navigation": {
+    "home": "Home",
+    "about": "Sobre Mim",
+    "projects": "Projetos",
+    "experiences": "Experiências",
+    "contact": "Contato"
+  },
+  "header": {
+    "role": "Desenvolvedor Full Stack"
+  },
+  "home": {
+    "subtitle": "Portfólio 2026",
+    "titleBefore": "Transformo processos",
+    "titleHighlight": "complexos",
+    "titleAfter": "em software que funciona.",
+    "description": "Sou Anthony Santos, desenvolvedor full stack. Desenho e construo produtos web do banco de dados ao último pixel, com performance, acessibilidade e atenção aos detalhes.",
+    "projectsCta": "Ver projetos",
+    "contactCta": "Entrar em contato",
+    "shortcuts": {
+      "aboutHint": "Quem eu sou e como eu trabalho",
+      "aboutLabel": "Sobre Mim",
+      "projectsHint": "Coisas que eu construí",
+      "projectsLabel": "Projetos",
+      "experiencesHint": "Trajetória profissional",
+      "experiencesLabel": "Experiências",
+      "contactHint": "Vamos conversar",
+      "contactLabel": "Contato"
+    },
+    "stats": {
+      "codingYears": "anos de código",
+      "projectsDelivered": "projetos entregues",
+      "stacks": "stacks dominadas"
+    }
+  },
   "about": {
+    "eyebrow": "Sobre Mim",
+    "heading": "Construo produtos do banco de dados ao pixel",
+    "description": "Comecei mexendo em HTML por curiosidade e nunca parei. Hoje trabalho como desenvolvedor full stack, cuidando de arquitetura de back-end e de interfaces que as pessoas realmente gostam de usar.",
+    "stack": "Stack",
     "values": {
       "architecture": {
         "title": "Arquitetura de Software e Design",
@@ -19,5 +57,54 @@
       "engineering": "Engenharia & Arquitetura",
       "database": "Banco de Dados & Metodologias"
     }
+  },
+  "experiences": {
+    "eyebrow": "Experiências",
+    "heading": "Uma linha do tempo honesta",
+    "description": "Onde trabalhei, o que era minha responsabilidade e o impacto que ficou depois que eu saí.",
+    "triex": {
+      "role": "Estagiário em Engenharia de Software",
+      "period": "2026 - Presente",
+      "pointOne": "Atuação no setor financeiro, com foco no desenvolvimento de soluções voltadas para análise de dados.",
+      "pointTwo": "Participação em rotinas de engenharia de software, garantindo a manutenção e evolução da base de código.",
+      "pointThree": "Colaboração técnica na otimização de fluxos operacionais e integração de sistemas corporativos."
+    },
+    "independent": {
+      "role": "Desenvolvedor Backend e Full Stack",
+      "period": "2024 - 2026",
+      "pointOne": "Arquitetura e desenvolvimento do NutriSoft API, sistema estruturado em Java e Spring Boot para gestão de dados.",
+      "pointTwo": "Construção de interfaces de usuário com Vue.js focadas em performance e integração fluida com APIs RESTful.",
+      "pointThree": "Modelagem de bancos de dados relacionais (MySQL) e criação de pipelines de deploy contínuo."
+    }
+  },
+  "projects": {
+    "eyebrow": "Projetos",
+    "heading": "Trabalhos selecionados",
+    "description": "Uma amostra do que construí recentemente, com o problema, a decisão técnica e o resultado.",
+    "nutriSoft": {
+      "summary": "Sistema core backend (nutri.soft.api) para gestão e processamento de dados. Arquitetura estruturada para garantir escalabilidade e integridade no tráfego das informações."
+    },
+    "financialDashboard": {
+      "summary": "Plataforma de análise de dados financeiros e operacionais, projetada com foco em performance e visualização de indicadores táticos para tomada de decisão."
+    },
+    "glassmorphism": {
+      "summary": "Biblioteca de componentes de interface translúcidos, desenvolvida do zero sem frameworks de CSS pesados, otimizada para acessibilidade e animações fluidas."
+    },
+    "scheduling": {
+      "summary": "Aplicação web full stack para controle de disponibilidade e marcações, implementando renderização no lado do servidor e integração direta com o banco de dados."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "heading": "Vamos construir algo juntos",
+    "description": "Sinta-se à vontade para me mandar um e-mail ou se conectar através das redes sociais. Respondo em até um dia útil.",
+    "channels": "Canais disponíveis",
+    "availability": "Disponível para colaborações remotas, fuso de São Paulo (UTC-3).",
+    "email": "E-mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "message": "Feito com atenção aos detalhes e muito vidro fosco."
   }
 }

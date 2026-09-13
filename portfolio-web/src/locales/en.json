@@ -1,5 +1,43 @@
 {
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experiences": "Experience",
+    "contact": "Contact"
+  },
+  "header": {
+    "role": "Full-Stack Developer"
+  },
+  "home": {
+    "subtitle": "Portfolio 2026",
+    "titleBefore": "I turn",
+    "titleHighlight": "complex processes",
+    "titleAfter": "into software that works.",
+    "description": "I'm Anthony Santos, a full-stack developer. I design and build web products from the database to the last pixel, with performance, accessibility, and attention to detail.",
+    "projectsCta": "View projects",
+    "contactCta": "Get in touch",
+    "shortcuts": {
+      "aboutHint": "Who I am and how I work",
+      "aboutLabel": "About",
+      "projectsHint": "Things I have built",
+      "projectsLabel": "Projects",
+      "experiencesHint": "Professional journey",
+      "experiencesLabel": "Experience",
+      "contactHint": "Let's talk",
+      "contactLabel": "Contact"
+    },
+    "stats": {
+      "codingYears": "years of coding",
+      "projectsDelivered": "projects delivered",
+      "stacks": "technology stacks"
+    }
+  },
   "about": {
+    "eyebrow": "About",
+    "heading": "I build products from the database to the last pixel",
+    "description": "I started exploring HTML out of curiosity and never stopped. Today I work as a full-stack developer, taking care of back-end architecture and interfaces people enjoy using.",
+    "stack": "Stack",
     "values": {
       "architecture": {
         "title": "Software Architecture & Design",
@@ -19,5 +57,54 @@
       "engineering": "Engineering & Architecture",
       "database": "Database & Methodologies"
     }
+  },
+  "experiences": {
+    "eyebrow": "Experience",
+    "heading": "An honest timeline",
+    "description": "Where I worked, what I was responsible for, and the impact that remained after I left.",
+    "triex": {
+      "role": "Software Engineering Intern",
+      "period": "2026 - Present",
+      "pointOne": "Worked in the financial sector, focusing on developing solutions for data analysis.",
+      "pointTwo": "Participated in software engineering routines, helping maintain and evolve the codebase.",
+      "pointThree": "Collaborated on optimizing operational flows and integrating corporate systems."
+    },
+    "independent": {
+      "role": "Backend and Full-Stack Developer",
+      "period": "2024 - 2026",
+      "pointOne": "Architected and developed NutriSoft API, a Java and Spring Boot system for data management.",
+      "pointTwo": "Built Vue.js user interfaces focused on performance and seamless REST API integration.",
+      "pointThree": "Modeled relational databases with MySQL and created continuous deployment pipelines."
+    }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "heading": "Selected work",
+    "description": "A sample of what I have built recently, including the problem, technical decision, and outcome.",
+    "nutriSoft": {
+      "summary": "Core backend system (nutri.soft.api) for data management and processing. Its architecture is designed to ensure scalability and data integrity."
+    },
+    "financialDashboard": {
+      "summary": "A financial and operational data analysis platform focused on performance and tactical indicator visualization for decision-making."
+    },
+    "glassmorphism": {
+      "summary": "A library of translucent interface components built from scratch without heavy CSS frameworks, optimized for accessibility and fluid animations."
+    },
+    "scheduling": {
+      "summary": "A full-stack web application for availability and appointment management, with server-side rendering and direct database integration."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Let's build something together",
+    "description": "Feel free to email me or connect through social media. I reply within one business day.",
+    "channels": "Available channels",
+    "availability": "Available for remote collaborations, Sao Paulo time zone (UTC-3).",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "message": "Made with attention to detail and plenty of frosted glass."
   }
 }

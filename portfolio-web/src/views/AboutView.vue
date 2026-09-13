@@ -1,9 +1,9 @@
 <template>
   <main class="about-container">
     <SectionHeading
-      eyebrow="Sobre Mim"
-      title="Construo produtos do banco de dados ao pixel"
-      description="Comecei mexendo em HTML por curiosidade e nunca parei. Hoje trabalho como desenvolvedor full stack, cuidando de arquitetura de back-end e de interfaces que as pessoas realmente gostam de usar."
+      :eyebrow="$t('about.eyebrow')"
+      :title="$t('about.heading')"
+      :description="$t('about.description')"
     />
 
     <div class="values-grid">
@@ -14,7 +14,7 @@
     </div>
 
     <GlassCard class="stack-card">
-      <h2 class="stack-title">Stack</h2>
+      <h2 class="stack-title">{{ $t('about.stack') }}</h2>
       <div class="stack-grid">
         <div v-for="s in aboutSkillGroups" :key="s.groupKey">
         <p class="group-label">{{ $t(s.groupKey) }}</p>

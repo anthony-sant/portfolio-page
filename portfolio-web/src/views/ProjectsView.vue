@@ -1,9 +1,9 @@
 <template>
   <main class="projects-container">
     <SectionHeading
-      eyebrow="Projetos"
-      title="Trabalhos selecionados"
-      description="Uma amostra do que construí recentemente — com o problema, a decisão técnica e o resultado."
+      :eyebrow="$t('projects.eyebrow')"
+      :title="$t('projects.heading')"
+      :description="$t('projects.description')"
     />
 
     <ul class="projects-grid">
@@ -19,7 +19,7 @@
           <span class="project-year">{{ p.year }}</span>
         </div>
         
-        <p class="project-summary">{{ p.summary }}</p>
+        <p class="project-summary">{{ $t(p.summaryKey) }}</p>
         
         <ul class="stack-list">
           <li v-for="s in p.stack" :key="s" class="stack-pill">

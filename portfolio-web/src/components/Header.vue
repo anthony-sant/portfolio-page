@@ -4,14 +4,14 @@ Snippet de código
     <nav class="nav-container glass glass-sheen">
         <router-link to="/" class="brand">
         <span class="name">Anthony Santos</span>
-        <span class="role">Full Stack Developer</span>
+        <span class="role">{{ t('header.role') }}</span>
         </router-link>
         
         <ul class="nav-links">
         <!-- O slice(1) remove o link 'Home' para não duplicar, já que o nome/logo já leva para a Home -->
         <li v-for="item in primaryNavigationItems.slice(1)" :key="item.to">
             <router-link :to="item.to" class="nav-item" active-class="active">
-            {{ item.label }}
+            {{ t(item.labelKey) }}
             </router-link>
         </li>
         <li>
@@ -29,7 +29,7 @@ import { primaryNavigationItems } from '../data/navigation-items.js';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-const { locale } = useI18n();
+const { locale, t } = useI18n();
 
 const currentLocale = computed(() => locale.value);
 
