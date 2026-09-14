@@ -16,11 +16,10 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 ## 🎨 Protótipo / Telas do Projeto
 Abaixo estão as imagens da interface do projeto:
 
-![Menu Simplificado](./assets/tela-menu.png)
-*Navegação principal baseada em cards.*
+![Menu Simplificado](./assets/0pg.png)
 
-![Tela Inicial](./assets/tela-hero.png)
+![Tela Inicial](./assets/1pg.png)
 *Apresentação principal ("Interfaces translúcidas, engenharia sólida.").*
 
-![Estatísticas e Seções](./assets/tela-secoes.png)
+![Estatísticas e Seções](./assets/2pg.png)
 *Visão geral das seções e métricas do desenvolvedor.*
