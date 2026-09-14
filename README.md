@@ -1,39 +1,26 @@
-# Portfolio Page
+# Portfólio Pessoal - Anthony Santos
 
-Este repositório contém duas áreas independentes:
+## 💻 Sobre o Projeto
+Este é um portfólio web pessoal desenvolvido para apresentar projetos, trajetória profissional e habilidades como Desenvolvedor Full Stack. O design destaca-se por uma interface moderna e minimalista, empregando o estilo *glassmorphism* (interfaces translúcidas) para proporcionar uma navegação fluida, visualmente elegante e responsiva.
 
-- `portfolio-web/`: frontend Vue 3 + Vite canônico e publicado.
-- `demo/`: backend Java reservado para integração futura. Ele não faz parte do
-  frontend nem deve ser executado para desenvolver ou publicar o portfólio.
+## 🔗 Links do Projeto
+- **Página em Produção:** [https://portfolio-page-psi-brown.vercel.app](https://portfolio-page-psi-brown.vercel.app)
+- **Repositório no GitHub:** [https://github.com/anthony-sant/portfolio-page/](https://github.com/anthony-sant/portfolio-page/)
 
-## Frontend
+## 🛠️ Ferramentas e Tecnologias
+Este projeto foi construído utilizando as seguintes tecnologias:
+- **Vue.js:** Framework JavaScript utilizado para criar a interface de usuário de forma reativa, gerenciando o estado e a componentização da página.
+- **HTML5:** Responsável pela estruturação semântica de todo o conteúdo web.
+- **CSS3:** Utilizado para a estilização completa, layouts responsivos e efeitos visuais avançados, como os painéis translúcidos e gradientes de fundo.
 
-Todos os comandos do frontend devem ser executados em `portfolio-web/`:
+## 🎨 Protótipo / Telas do Projeto
+Abaixo estão as imagens da interface do projeto:
 
-```bash
-cd portfolio-web
-npm ci
-npm run dev
-```
+![Menu Simplificado](./assets/tela-menu.png)
+*Navegação principal baseada em cards.*
 
-Para gerar a versão de produção:
+![Tela Inicial](./assets/tela-hero.png)
+*Apresentação principal ("Interfaces translúcidas, engenharia sólida.").*
 
-```bash
-cd portfolio-web
-npm run build
-```
-
-O build é criado em `portfolio-web/dist/`.
-
-## Deploy na Vercel
-
-Importe este repositório e configure **Root Directory** como `portfolio-web`.
-A Vercel então usará `portfolio-web/package.json` e o rewrite de SPA definido
-em `portfolio-web/vercel.json`. Não use a raiz do repositório como diretório de
-build, pois ela não contém uma aplicação Vue.
-
-## Contatos
-
-Os dados de contato ficam em `portfolio-web/src/data/contact-content.js`.
-Atualize os campos de e-mail, LinkedIn e GitHub, que permanecem como
-placeholders, antes de publicar dados de contato pessoais.
+![Estatísticas e Seções](./assets/tela-secoes.png)
+*Visão geral das seções e métricas do desenvolvedor.*
